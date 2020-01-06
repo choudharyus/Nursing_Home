@@ -35,7 +35,7 @@ Define the the React components and the architectural design of your app.
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
 | Header | This will render the header include the nav | 
-| Main | This will render the main page with complete list of runsing homes | 
+| List | This will render the main page with complete list of runsing homes | 
 | Penalities | This will render the nursing homes with fines and penalities | 
 | Capacity | This will render the list of nursing homes with their capacity | 
 | Quality | This will render the nursing homes with their quality rating | 
