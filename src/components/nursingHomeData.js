@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react"
-//import List from './list'
 
 const NursingHome = () => {
 const [nursingHome, setNursingHome] = useState([]);
@@ -9,12 +8,13 @@ useEffect (() => {
 
         .then(res => res.json())
         .then(res => {
+            //console.log(res)
             setNursingHome(res)
         })
-    }, [])
-
+        }, [])
     return (
         <div>
+            
         <h1>This is an API call page for Nursing Homes!</h1>
             <table>
                 <thead>
