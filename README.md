@@ -14,7 +14,7 @@ I picked the URL from USDA/FDA about the nursing home availbility in the area. I
 
 ## Wireframes
 
-- [Initial Wireframe](https://github.com/choudharyus/Nursing_Home/blob/master/Wirefram_Nursing_Home.jpg)
+- [Initial Wireframe](https://github.com/choudharyus/Nursing_Home/blob/master/Wireframe%20-%20Nursing%20Home.png)
 	- this is my initial thinking of how I want my page to work.
 <!-- - [react architecture]() -->
 
