@@ -53,7 +53,7 @@ Define the the React components and the architectural design of your app.
 | Develop code for qutalities, penalities, and capacity | H | 8hrs | 2hrs |  |
 | Stylize the app | H | 8hrs | 3hrs |  |
 | Work on final documentation | H | 4hrs |  |  |
-| Total | H | 40hrs | 16hrs |  |
+| Total | H | 40hrs | 18hrs |  |
 
 ## Additional Libraries
  <!-- Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc.  -->
