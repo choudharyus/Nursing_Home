@@ -1,0 +1,8 @@
+.homePage {
+    text-align: center;
+    background-color: aqua;
+}
+.homeDiv1{
+    background-image: url(https://www.everplans.com/sites/default/files/styles/article_header_image/public/nusring-home-illustration-750.jpg?itok=z5396KB2);
+    opacity: 0.9;
+}

@@ -10,3 +10,5 @@ const Navigation = () => {
     )
 }
 export default Navigation;
+
+//<NavLink to="/components/Home">Home</NavLink><br></br>

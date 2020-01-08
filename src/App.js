@@ -1,22 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import {Route, Switch} from 'react-router-dom';
-//import { render } from '@testing-library/react';
-import Navigation from './components/Navigation';
-import NursingHome from './components/nursingHomeData';
-import Penalties from './components/Penalties';
-
+//import {Route, Switch} from 'react-router-dom';
+//import Navigation from './components/Navigation';
+//import NursingHome from './components/nursingHomeData';
+//import Penalties from './components/Penalties';
+import Home from './components/Home';
 
 class App extends Component {
 
   render () {
     return (
       <div>
-        <Navigation />
-        <Switch>
-          <Route path="/components/NursingHome" component={NursingHome} />
-          <Route path="/components/Penalties" component={Penalties} />
-        </Switch>
+        <Home />
       </div>
     )
   }
@@ -24,7 +19,12 @@ class App extends Component {
 export default App;
 
 
-
+// {/* <Navigation />
+// <Switch>
+//   <Route exact path="/components/Home" component={Home} />
+//   <Route path="/components/NursingHome" component={NursingHome} />
+//   <Route path="/components/Penalties" component={Penalties} />
+// </Switch> */}
 
 
 
