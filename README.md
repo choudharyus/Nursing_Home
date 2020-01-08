@@ -45,15 +45,15 @@ Define the the React components and the architectural design of your app.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Planning | H | 4hrs | 3hrs |  |
-| Create all initial files and initial React setup | H | 3hrs | 2hrs |  |
-| Connect to API and show it responding | H | 1hrs | 1hrs |  |
-| Develop code for App | H | 1hrs |  |  |
-| Develop code for Header and Main | H | 8hrs |  |  |
-| Develop code for qutalities, penalities, and capacity | H | 8hrs | 1hrs |  |
-| Stylize the app | H | 8hrs |  |  |
+| Planning | H | 4hrs | 4hrs |  |
+| Create all initial files and initial React setup | H | 3hrs | 3hrs |  |
+| Connect to API and show it responding | H | 2hrs | 2hrs |  |
+| Develop code for App | H | 1hrs | 1hr |  |
+| Develop code for Header and Main | H | 8hrs | 2hrs |  |
+| Develop code for qutalities, penalities, and capacity | H | 8hrs | 2hrs |  |
+| Stylize the app | H | 8hrs | 3hrs |  |
 | Work on final documentation | H | 3hrs |  |  |
-| Total | H | 36hrs | 7hrs |  |
+| Total | H | 37hrs | 15hrs |  |
 
 ## Additional Libraries
  <!-- Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc.  -->
