@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import Navigation from './Navigation';
 import NursingHome from './NursingHome';
@@ -9,9 +9,7 @@ import Capacity from './Capacity';
 import About from './About';
 import Disclaimer from './Disclaimer';
 
-
 function Home () {
-
 
     return (
         <body>

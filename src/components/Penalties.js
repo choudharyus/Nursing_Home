@@ -44,12 +44,12 @@ const Penalties = () => {
         return (
             <tr>
                 <td>{provider.provider_name}</td>
-                <td>{provider.provider_state}</td>
-                <td>{provider.provider_zip_code}</td>
-                <td>{provider.rating_cycle_1_number_of_complaint_health_deficiencies}</td>
-                <td>{provider.number_of_facility_reported_incidents}</td>
-                <td>{provider.total_amount_of_fines_in_dollars}</td>
-                <td>{provider.total_number_of_penalties}</td>
+                <td className="tableData">{provider.provider_state}</td>
+                <td className="tableData">{provider.provider_zip_code}</td>
+                <td className="tableData">{provider.rating_cycle_1_number_of_complaint_health_deficiencies}</td>
+                <td className="tableData">{provider.number_of_facility_reported_incidents}</td>
+                <td className="tableData">{provider.total_amount_of_fines_in_dollars}</td>
+                <td className="tableData">{provider.total_number_of_penalties}</td>
             </tr>
         );    
     }

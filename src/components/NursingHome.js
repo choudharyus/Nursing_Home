@@ -10,7 +10,6 @@ useEffect (() => {
 
         .then(res => res.json())
         .then(res => {
-            //console.log(res)
             setNursingHome(res)
         })
         }, [])
@@ -46,8 +45,8 @@ const Tr = ({provider}) => {
             <td>{provider.provider_name}</td>
             <td>{provider.provider_address}</td>
             <td>{provider.provider_city}</td>
-            <td>{provider.provider_state}</td>
-            <td>{provider.provider_zip_code}</td>
+            <td className="tableData">{provider.provider_state}</td>
+            <td className="tableData">{provider.provider_zip_code}</td>
         </tr>
     );    
 }

@@ -1,76 +1,20 @@
-.navLink{
-    margin: 30px 30px 30px 40px;
-    padding-left: 10px;
-    height: 50px;
+.flex-container{
+    display: flex;
+}
+.flex-container > div {
+    font-size: large;
+    font-weight: bolder;
+    background-color: Sandybrown;
+    border: 1px solid;
+    padding: 10px 30px 10px 30px;
+    border-radius: 3pt;
+    text-decoration: none;
+    color: black;
+    box-shadow: 5px 5px green;
+    margin: 20px 20px 30px 20px;
+    padding: 10px 50px;
+    
 }
 .nav1{
-    font-size: large;
-    font-weight: bolder;
-    background-color: Sandybrown;
-    border: 1px solid;
-    padding: 10px 30px 10px 30px;
-    border-radius: 3pt;
     text-decoration: none;
-    color: black;
-    box-shadow: 5px 5px green;
-}
-.nav2{
-    margin-left: 50px;
-    font-size: large;
-    font-weight: bolder;
-    background-color: Sandybrown;
-    border: 1px solid;
-    padding: 10px;
-    border-radius: 3pt;
-    text-decoration: none;
-    color: black;
-    box-shadow: 5px 5px green;
-}
-.nav3{
-    margin-left: 50px;
-    font-size: large;
-    font-weight: bolder;
-    background-color: Sandybrown;
-    border: 1px solid;
-    padding: 10px 40px 10px 40px;
-    border-radius: 3pt;
-    text-decoration: none;
-    color: black;
-    box-shadow: 5px 5px green;
-}
-.nav4{
-    margin-left: 50px;
-    font-size: large;
-    font-weight: bolder;
-    background-color: Sandybrown;
-    border: 1px solid;
-    padding: 10px 30px 10px 30px;
-    border-radius: 3pt;
-    text-decoration: none;
-    color: black;
-    box-shadow: 5px 5px green;
-}
-.nav5{
-    margin-left: 50px;
-    font-size: large;
-    font-weight: bolder;
-    background-color: Sandybrown;
-    border: 1px solid;
-    padding: 10px 80px 10px 80px;
-    border-radius: 3pt;
-    text-decoration: none;
-    color: black;
-    box-shadow: 5px 5px green;
-}
-.nav6{
-    margin-left: 50px;
-    font-size: large;
-    font-weight: bolder;
-    background-color: Sandybrown;
-    border: 1px solid;
-    padding: 10px 60px 10px 60px;
-    border-radius: 3pt;
-    text-decoration: none;
-    color: black;
-    box-shadow: 5px 5px green;
 }

@@ -43,11 +43,11 @@ function Quality (props) {
         return (
             <tr>
                 <td>{provider.provider_name}</td>
-                <td>{provider.provider_state}</td>
-                <td>{provider.provider_zip_code}</td>
-                <td>{provider.health_inspection_rating}</td>
-                <td>{provider.staffing_rating}</td>
-                <td>{provider.overall_rating}</td>
+                <td className="tableData">{provider.provider_state}</td>
+                <td className="tableData">{provider.provider_zip_code}</td>
+                <td className="tableData">{provider.health_inspection_rating}</td>
+                <td className="tableData">{provider.staffing_rating}</td>
+                <td className="tableData">{provider.overall_rating}</td>
             </tr>
         );  
 }

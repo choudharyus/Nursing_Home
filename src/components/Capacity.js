@@ -42,10 +42,10 @@ function Capacity (props) {
         return (
             <tr>
                 <td>{provider.provider_name}</td>
-                <td>{provider.provider_state}</td>
-                <td>{provider.provider_zip_code}</td>
-                <td>{provider.number_of_residents_in_certified_beds}</td>
-                <td>{provider.number_of_certified_beds}</td>
+                <td className="tableData">{provider.provider_state}</td>
+                <td className="tableData">{provider.provider_zip_code}</td>
+                <td className="tableData">{provider.number_of_residents_in_certified_beds}</td>
+                <td className="tableData">{provider.number_of_certified_beds}</td>
             </tr>
         );  
 }

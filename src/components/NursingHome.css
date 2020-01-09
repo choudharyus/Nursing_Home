@@ -2,3 +2,7 @@ table, th, tr, td {
     border: 2px solid black;
     margin-left: 12%;
 }
+
+.tableData{
+    text-align: center;
+}
