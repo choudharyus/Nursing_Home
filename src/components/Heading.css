@@ -1,0 +1,8 @@
+.heading1{
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px 200px 20px;
+    border-radius: 3pt;
+    box-shadow: 5px 5px chocolate;
+    background-color: limegreen;
+}

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react"
 import './NursingHome.css'
+import './Heading.css'
+
 const NursingHome = () => {
 const [nursingHome, setNursingHome] = useState([]);
 
@@ -15,11 +17,11 @@ useEffect (() => {
     return (
         <div>
             
-        <h1>This is an API call page for Nursing Homes!</h1>
+        <h1 className="heading1">List of Nursing Homes</h1>
             <table>
                 <thead>
                     <tr>
-                        <th>Name</th>
+                        <th>Nursing Homes</th>
                         <th>Address</th>
                         <th>City</th>
                         <th>State</th>

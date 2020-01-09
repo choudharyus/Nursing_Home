@@ -1,8 +1,18 @@
-.homePage {
+.headingContainer{
     text-align: center;
-    background-color: aqua;
+    color: black;
+    padding: 50px;
+    height: 200px;
+    border: 2px solid;
+    margin: 10px;
+    background-image: url('/NursingHomePic.jpg');
+    background-position: bottom;
 }
-.homeDiv1{
-    background-image: url(https://www.everplans.com/sites/default/files/styles/article_header_image/public/nusring-home-illustration-750.jpg?itok=z5396KB2);
-    opacity: 0.9;
+.heading{
+    margin-top: 200px;
+}
+
+body{
+    background-color: aqua;
+    
 }

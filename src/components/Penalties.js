@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-//import List from './list'
+import './Heading.css'
 
 const Penalties = () => {
     const [nursingHome, setNursingHome] = useState([]);
@@ -15,16 +15,17 @@ const Penalties = () => {
     
         return (
             <div>
-            <h1>Total Penalties API Call!</h1>
+            <h1 className='heading1'>Nursing Homes with Penalties & Fines</h1>
                 <table>
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Address</th>
-                            <th>City</th>
+                            <th>Nursing Homes</th>
                             <th>State</th>
                             <th>Zip Code</th>
-                            <th>Total Penalties</th>
+                            <th>Number of Complaints</th>
+                            <th>Reported Incidents</th>
+                            <th>Fines in ($)</th>
+                            <th>Total # of Penalties</th>
                         </tr>
                     </thead>
     
@@ -43,10 +44,11 @@ const Penalties = () => {
         return (
             <tr>
                 <td>{provider.provider_name}</td>
-                <td>{provider.provider_address}</td>
-                <td>{provider.provider_city}</td>
                 <td>{provider.provider_state}</td>
                 <td>{provider.provider_zip_code}</td>
+                <td>{provider.rating_cycle_1_number_of_complaint_health_deficiencies}</td>
+                <td>{provider.number_of_facility_reported_incidents}</td>
+                <td>{provider.total_amount_of_fines_in_dollars}</td>
                 <td>{provider.total_number_of_penalties}</td>
             </tr>
         );    
