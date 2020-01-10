@@ -33,13 +33,13 @@ Define the the React components and the architectural design of your app.
 
 | Component | Description | 
 | --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
-| Header | This will render the header include the nav | 
-| List | This will render the main page with complete list of runsing homes | 
+| Home | This will make the initial data pull and include React Router| 
+| NursingHome | This will render the complete list of runsing homes with names, addresses, states & zipcode | 
 | Penalities | This will render the nursing homes with fines and penalities | 
-| Capacity | This will render the list of nursing homes with their capacity | 
-| Quality | This will render the nursing homes with their quality rating | 
-
+| Capacity | This will render the list of nursing homes with their capacity of residents | 
+| Quality | This will render the nursing homes with their quality rating points | 
+| About | This will render the info about the developer, GA staff and the objective of the site |
+| Disclaimer | This will render the disclaim stating the data is purely used for educational purpose | 
 
 ## Time Frames
 
