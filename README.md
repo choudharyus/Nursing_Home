@@ -25,8 +25,8 @@ Define the the React components and the architectural design of your app.
 #### MVP
 - Find an external API for Nursing Home data
 - Develop an app that displays the info and can be interacted with
-- Create links to each category (location & quality rating)
-- Create pages to display detail info for each nursing home
+- Create links to each category such as list of nursing homes, penalties & violations, quality, capcity, about and disclaimer
+- Create pages to display detail info for each above mentioned cartegory
 
 
 ## Components
