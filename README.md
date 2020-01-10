@@ -125,6 +125,7 @@ export default NursingHome;
 ```
 
 ## Issues and Resolutions
+
 **ERROR**:  Table to orgranize the data was not working properly. 
 **RESOLUTION**: One of the challenge I had during this project to display the data in the table format. I reasearched the solution online and consulted different sites to identify the righ approach to handle the output.
 ```
