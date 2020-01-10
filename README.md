@@ -28,7 +28,7 @@ Define the the React components and the architectural design of your app.
 - Create links to each category such as list of nursing homes, penalties & violations, quality, capcity, about and disclaimer
 - Create pages to display detail info for each above mentioned cartegory
 
-###PostMVP
+### PostMVP
 - Found an API and successfully retrieved the data
 - Created at least six different functional components for the project
 - linked the components with the component containing the Router/Navigation functionality
@@ -69,7 +69,6 @@ Define the the React components and the architectural design of your app.
 
 I didn't have any problem fetching data from API and dumping into the array format. The biggest challenge was to properly handle the data in the most organized formt (Table formt); in order to accomplish this task I did online research and found couple of directions from "stackoverflow" site. I successfully applied the knowledge and was able to display the data in the table formt.
 
-<!-- ```
 import React, { useEffect, useState } from "react"
 import './NursingHome.css'
 import './Heading.css'
@@ -123,7 +122,6 @@ const Tr = ({provider}) => {
     );    
 }
 export default NursingHome;
-``` -->
 
 ## Issues and Resolutions
  <!-- Use this section to list of all major issues encountered and their resolution. -->
