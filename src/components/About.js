@@ -1,5 +1,6 @@
 import React from 'react';
 import './Paragraph.css'
+import './Heading.css'
 
 function About () {
 
