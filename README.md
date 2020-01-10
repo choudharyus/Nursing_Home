@@ -14,7 +14,7 @@ I picked the URL from USDA/FDA about the nursing home availbility in the area. I
 
 ## Wireframes
 
-- [Initial Wireframe]()
+- [Initial Wireframe](https://github.com/choudharyus/Nursing_Home/blob/master/public/Wireframe-Diagram-Project2.png)
 	- this is my initial thinking of how I want my page to work.
 <!-- - [react architecture]() -->
 
@@ -52,8 +52,8 @@ Define the the React components and the architectural design of your app.
 | Develop code for Header and Main | H | 8hrs | 8hrs |  |
 | Develop code for qutalities, penalities, and capacity | H | 8hrs | 8hrs |  |
 | Stylize the app | H | 8hrs | 8hrs |  |
-| Work on final documentation | H | 4hrs | 1hr |  |
-| Total | H | 40hrs | 37hrs |  |
+| Work on final documentation | H | 4hrs | 4hrs |  |
+| Total | H | 40hrs | 40hrs |  |
 
 ## Additional Libraries
  <!-- Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc.  -->
