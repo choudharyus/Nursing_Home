@@ -12,6 +12,7 @@ import Disclaimer from './Disclaimer';
 function Home () {
 
     return (
+        <div>
         <body>
             <div className="headingContainer">
                 <h1 className="heading">National Nursing Home Database</h1>
@@ -29,6 +30,7 @@ function Home () {
         </Switch>
         </div>
         </body>
+        </div>
     )
 }
 export default Home;

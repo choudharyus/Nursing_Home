@@ -16,7 +16,7 @@ const Penalties = () => {
         return (
             <div>
             <h1 className='heading1'>Nursing Homes with Penalties & Fines</h1>
-                <table>
+                <table className="mainTable">
                     <thead>
                         <tr>
                             <th>Nursing Homes</th>

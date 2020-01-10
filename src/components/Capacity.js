@@ -16,7 +16,7 @@ function Capacity (props) {
         return (
             <div>
             <h1 className="heading1">Nursing Homes with Capacity of Residents</h1>
-                <table>
+                <table className="mainTable">
                     <thead>
                         <tr>
                             <th>Nursing Homes</th>

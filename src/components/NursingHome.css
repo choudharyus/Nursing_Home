@@ -6,3 +6,7 @@ table, th, tr, td {
 .tableData{
     text-align: center;
 }
+
+.mainTable{
+    margin-top: 20px;
+}
